@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="SeleniumEx.TestCasewithTestNG">
+        <methods>
+          <include name="VerifyFindWorktab"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- SeleniumEx.TestCasewithTestNG -->
+      <class name="SeleniumEx.AmazonTestcase">
+        <methods>
+          <include name="VerifyCardisopen"/>
+          <include name="VerifyLogin"/>
+        </methods>
+      </class> <!-- SeleniumEx.AmazonTestcase -->
+      <class name="SeleniumEx.MyntraTestcase">
+        <methods>
+          <include name="Verify_Title"/>
+          <include name="Verify_alllinkisopen"/>
+          <include name="Verify_Logolink_isworking"/>
+          <include name="Verify_AllLinks_isworking"/>
+          <include name="LinksCounts"/>
+          <include name="Verify_pagescroll"/>
+        </methods>
+      </class> <!-- SeleniumEx.MyntraTestcase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
